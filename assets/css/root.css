@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.font_poppins {
+  font-family: "Poppins", sans-serif !important;
+}
+
+:root {
+  --font-sm: 16px !important;
+  --font-md: 18px !important;
+  --font-lg: 20px !important;
+  --font-xl: 22px !important;
+  --font-2xl: 24px !important;
+  --font-3xl: 36px;
+  --font-4xl: 48px !important;
+  --font-5xl: 64px !important;
+  --font-6xl: 74px !important;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-grey: #777777;
+  --light-orange: #FF9593;
+  --light-green: #30A59D;
+  --light-white:#CAE5F2;
+
+}
+.lh_127 {
+  line-height: 127%;
+}
+.lh_150 {
+  line-height: 150%;
+}
+.color-black {
+  color: var(--color-black);
+}
+
+.color-white {
+  color: var(--color-white);
+}
+.color-grey {
+  color: var(--color-grey);
+}
+
+
+.light-orange {
+  color: var(--light-orange);
+}
+.light-white {
+  color: var(--light-white);
+}
+
+.light-green {
+  color: var(--light-green);
+}
+
+.text-sm {
+  font-size:  var(--font-sm);
+}
+
+.text-md {
+  font-size:  var(--font-md);
+}
+
+.text-lg {
+  font-size:  var(--font-lg);
+}
+
+.text-5xl {
+  font-size: var(--font-5xl);
+}
+
+.text-2xl {
+  font-size: var(--font-2xl);
+}
+.text-3xl {
+  font-size: var(--font-3xl);
+}
+
+.text-6xl {
+  font-size: var(--font-6xl);
+}
+
+@media (max-width:576px) {
+  :root {
+    --font-sm: 16px;
+    --font-md: 16px !important;
+    --font-lg: 16px !important;
+    --font-xl: 22px;
+    --font-2xl: 20px !important;
+    --font-3xl: 26px ;
+    --font-4xl: 48px;
+    --font-5xl: 64px;
+    --font-6xl: 74px;
+  }
+
+}
