@@ -108,7 +108,7 @@ p {
 
 .common_btn {
     transition: all 200ms ease-in-out;
-    border: 1px solid transparent !important;
+    border: 1px  transparent !important;
     background-image: linear-gradient(180deg, #41C9C6 0%, #4FA6D3 100%);
     padding: 15px 50px;
     border-radius: 8px;
@@ -116,11 +116,10 @@ p {
 }
 
 .common_btn:hover {
-    box-shadow: none !important;
-    color: #4FA6D3;
+    background: #000 !important;
+    /* box-shadow: none !important; */
     transition: all 200ms ease-in-out;
-    border: 1px solid #4FA6D3 !important;
-    background: #000;
+    border: 1px solid #4FA6D3;
 }
 .hero_decoration_boxes{
     top:9%;
@@ -147,6 +146,22 @@ p {
 }
 .max_w_811{
     max-width: 711px;
+}
+.orange_circle{
+    right: 2%;
+    top: 23%;
+    border-radius: 100px;
+    background: #FF9593;
+    height: 117px;
+    width: 117px;
+}
+.yellow_circle{
+    left: 7%;
+    bottom: 11%;
+    border-radius: 100px;
+    background: #FFDEA6;
+    height: 77px;
+    width: 77px;
 }
 /* ------------------  Features  ------------------------ */
 .features_bg{
@@ -185,6 +200,11 @@ color: #000 !important;
 }
 .fetures_card:hover .card_svg svg circle{
     fill: #43C3C8 !important;
+}
+@media (max-width:1600px) {
+    .yellow_circle{
+        display: none !important;
+    }
 }
 @media (max-width:1400px) {
     .hero_decoration_boxes{
