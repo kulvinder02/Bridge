@@ -52,7 +52,7 @@ a:hover {
 
 .span1_rotate {
     transition: all 600ms linear;
-    margin-top: 15px;
+    margin-top: 3px;
     transform: rotate(54deg);
 }
 
