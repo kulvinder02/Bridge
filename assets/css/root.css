@@ -16,6 +16,7 @@
   --font-6xl: 74px !important;
   --color-white: #ffffff;
   --color-black: #000000;
+  --color-dark-black:#606060;
   --color-grey: #777777;
   --light-orange: #FF9593;
   --light-green: #30A59D;
@@ -31,7 +32,9 @@
 .color-black {
   color: var(--color-black);
 }
-
+.color-dark-black {
+  color: var(--color-dark-black);
+}
 .color-white {
   color: var(--color-white);
 }
@@ -73,7 +76,9 @@
 .text-3xl {
   font-size: var(--font-3xl);
 }
-
+.text-4xl {
+  font-size: var(--font-4xl);
+}
 .text-6xl {
   font-size: var(--font-6xl);
 }
@@ -86,7 +91,7 @@
     --font-xl: 22px;
     --font-2xl: 20px !important;
     --font-3xl: 26px ;
-    --font-4xl: 48px;
+    --font-4xl: 32px !important;
     --font-5xl: 64px;
     --font-6xl: 74px;
   }

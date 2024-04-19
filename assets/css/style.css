@@ -13,6 +13,11 @@
     max-width: 1310px !important;
 }
 
+.bg_property {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* -------------nav-bar------------- */
 .icon_hover {
     transition: all 200ms ease-in-out;
@@ -77,7 +82,7 @@ a:hover {
 
 .span-icon {
     height: 3px !important;
-    background:black;
+    background: black;
     display: flex;
     margin-bottom: 4px;
     z-index: 20 !important;
@@ -89,8 +94,6 @@ a:hover {
     width: 950px;
     height: 879px;
 }
-
-
 
 h1,
 h2,
@@ -108,46 +111,63 @@ p {
 
 .common_btn {
     transition: all 200ms ease-in-out;
-    border: 1px  transparent !important;
+    border: 1px transparent !important;
     background-image: linear-gradient(180deg, #41C9C6 0%, #4FA6D3 100%);
     padding: 15px 50px;
     border-radius: 8px;
     /* box-shadow: 2px 3px #938f8f; */
 }
 
-.common_btn:hover {
+.mission_btn {
+    transition: all 200ms ease-in-out;
+    border: 1px transparent !important;
+    background-image: linear-gradient(180deg, #41C9C6 0%, #4FA6D3 100%);
+    padding: 15px 40.2px;
+    border-radius: 8px;
+}
+
+.common_btn:hover,
+.mission_btn:hover {
+    transition: all 200ms ease-in-out;
     background: #000 !important;
     /* box-shadow: none !important; */
     transition: all 200ms ease-in-out;
     border: 1px solid #4FA6D3;
 }
-.hero_decoration_boxes{
-    top:9%;
+
+.hero_decoration_boxes {
+    top: 9%;
     width: 221.26px;
     height: 605.82px;
 }
-.border_btn{
+
+.border_btn {
     padding: 9.3px 30px;
     border-radius: 8px;
     border: 1px solid white !important;
 }
-.border_btn:hover{
+
+.border_btn:hover {
     transition: all 200ms ease-in-out;
-    background-color:white !important;
+    background-color: white !important;
     color: #30A59D;
 }
+
 /* --------------- authentic connection --------------- */
-.mobile_img{
+.mobile_img {
     width: 435.34px;
     height: 820px;
 }
-.authntic_card{
+
+.authntic_card {
     max-width: 350px;
 }
-.max_w_811{
+
+.max_w_811 {
     max-width: 711px;
 }
-.orange_circle{
+
+.orange_circle {
     right: 2%;
     top: 23%;
     border-radius: 100px;
@@ -155,7 +175,8 @@ p {
     height: 117px;
     width: 117px;
 }
-.yellow_circle{
+
+.yellow_circle {
     left: 7%;
     bottom: 11%;
     border-radius: 100px;
@@ -163,63 +184,166 @@ p {
     height: 77px;
     width: 77px;
 }
+
 /* ------------------  Features  ------------------------ */
-.features_bg{
-  background-image: url("../images/png/featurs-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+.features_bg {
+    background-attachment: fixed;
+    background-image: url("../images/png/featurs-bg.png");
 }
-.fetures_card{
+
+.fetures_card {
     transition: all 200ms ease-in-out;
     height: 306px;
     border: 1px solid white;
     border-radius: 22px;
-    padding:82px 16px;
+    padding: 82px 16px;
 }
-.px_cards{
-  padding: 17px !important;
+
+.px_cards {
+    padding: 17px !important;
 }
-.fetures_card:hover{
+.orange_circle2 {
+    left: 3%;
+    top: -33%;
+    border-radius: 100px;
+    background: #FF9593;
+    height: 117px;
+    width: 117px;
+}
+.yellow_circle2 {
+    right: 5%;
+    top: -111%;
+    border-radius: 100px;
+    background: #FFDEA6;
+    height: 77px;
+    width: 77px;
+}
+
+
+.fetures_card:hover {
     cursor: pointer;
-   background: white;
+    background: white;
 }
-.fetures_card:hover h3{
-color: #000 !important;
+
+.fetures_card:hover h3 {
+    color: #000 !important;
 }
-.fetures_card:hover .hide_para{
-   display: block !important;
-    }
-.fetures_card:hover .card_svg svg path{
+
+.fetures_card:hover .hide_para {
+    display: block !important;
+}
+
+.fetures_card:hover .card_svg svg path {
     fill: white !important;
 }
-.fetures_card:hover .card_svg svg path{
+
+.fetures_card:hover .card_svg svg path {
     fill: white !important;
 }
-.fetures_card:hover .card_svg svg circle{
+
+.fetures_card:hover .card_svg svg circle {
     stroke: #43C3C8 !important;
 }
-.fetures_card:hover .card_svg svg circle{
+
+.fetures_card:hover .card_svg svg circle {
     fill: #43C3C8 !important;
 }
+
+/* carzy level */
+.slider_box {
+    max-width: 100%;
+    width: 1239px;
+    height: 391px;
+    border-radius: 5px;
+    box-shadow: 18px 10px 34px 0px rgba(5, 5, 5, 0.1);
+}
+.slick-dots {
+    bottom: 40px !important;
+}
+.though_bg {
+    background-image: url("../images/png/thought-bg.png");
+    width: 968px;
+    height: 139px;
+    max-width: 100% !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sam_img{
+  
+    margin-right: 37px;
+    width: 89px;
+    height: 89px ;
+}
+/* --------------bridge work------------- */
+.hand_mobile {
+    background-image: url("../images/png/hand-mobile.png");
+    height: 764px;
+}
+
+.coffee_cup {
+    background-image: url("../images/png/coffee-cup.png");
+    height: 764px;
+    background-position: center;
+}
+
+.enjoy_selfie {
+    background-image: url("../images/png/enjoy-selfie.png");
+    height: 764px;
+    background-position: center;
+}
+
+.max_w_661 {
+    max-width: 460px;
+}
+
+.footer_bg {
+    height: 400px;
+    background-image: url("/assets/images/png/footer-bg.png");
+}
+.slick-dots li.slick-active button:before {
+    margin-top: 1px !important;
+    color: #30A59D !important;
+    font-size: 16px !important;
+    opacity: 1 !important;
+    width: 18px !important;
+    height: 18px !important;
+    border: transparent !important;
+}
+.text_lg_sm{
+    font-size: 16px;
+}
+.slick-dots li button:before {
+    line-height: 14px !important;
+    width: 14px !important;
+    height: 14px !important;
+    opacity: 1 !important;
+    color: transparent !important;
+    border-radius: 15px !important;
+    border:  1px solid black !important;
+}
 @media (max-width:1600px) {
-    .yellow_circle{
+    .yellow_circle {
         display: none !important;
     }
 }
+
 @media (max-width:1400px) {
-    .hero_decoration_boxes{
-       display: none;
+    .hero_decoration_boxes {
+        display: none;
     }
+
     .max_w_558 {
-        max-width:790px;
+        max-width: 790px;
     }
-    
-    .text_md_6xl{
+
+    .text_md_6xl {
         font-size: 74px !important;
     }
-    .text_md_2xl{
+
+    .text_md_2xl {
         font-size: 24px !important;
     }
+
     .hero_img {
         display: none !important;
     }
@@ -229,38 +353,65 @@ color: #000 !important;
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .text_md_white{
+
+    .text_md_white {
         color: white !important;
     }
 }
+
 @media (max-width:991.9px) {
-    .logo{
+    .small_screen_links{
+        transform: translateY(80px);
+    }
+    .text_lg_sm{
+        font-size: 18px;
+    }
+    .though_bg {
+        border-radius: 20px !important;
+        width: 378px;
+        background-size: cover;
+    }
+    .slider_box {
+        max-width: 100%;
+        width: 1239px;
+        height: 301px;
+        border-radius: 5px;
+        box-shadow: 18px 10px 34px 0px rgba(5, 5, 5, 0.1);
+    }
+    .logo {
         z-index: 100 !important;
-        height: 33px ;
+        height: 33px;
         width: 39px;
     }
-    .nav_bar{
+
+    .nav_bar {
         height: 55px !important;
         background-color: white !important;
     }
-    .icons_black path{
+
+    .icons_black path {
         fill: #000 !important;
     }
-    .icons_black path{
+
+    .icons_black path {
         stroke: #000 !important;
     }
-    .text_md_6xl{
+
+    .text_md_6xl {
         font-size: 64px !important;
     }
-    .text_md_2xl{
+
+    .text_md_2xl {
         font-size: 20px !important;
     }
+
     .nav-bar-sm {
         position: fixed;
         top: 0;
         left: -100%;
         width: 100%;
         height: 100vh;
+        font-size: 18px !important;
         background: white;
         align-items: center;
         justify-content: center;
@@ -275,23 +426,34 @@ color: #000 !important;
         z-index: 110;
     }
 }
+
+@media (max-width:768px) {
+    .slick-dots {
+        bottom: 20px !important;
+    }
+    .hand_mobile,
+    .coffee_cup,
+    .enjoy_selfie {
+        height: 464px;
+    }
+}
+
 @media (max-width:576px) {
     .mobile_img {
         width: 296.34px;
         height: 518px;
     }
-  
+
     .hero_bg {
         background-image: url("../images/png/hero-sm-bg.png");
-      
+
     }
-    .text_md_6xl{
+
+    .text_md_6xl {
         font-size: 48px !important;
     }
-    .text_md_2xl{
+
+    .text_md_2xl {
         font-size: 18px !important;
     }
 }
-
-@media (max-width:992px) {}
-
