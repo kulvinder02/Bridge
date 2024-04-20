@@ -23,6 +23,9 @@
   --light-white:#CAE5F2;
 
 }
+.fw-semibold{
+  font-weight: 600 !important;
+}
 .lh_127 {
   line-height: 127%;
 }

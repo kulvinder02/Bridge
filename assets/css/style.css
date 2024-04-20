@@ -91,7 +91,7 @@ a:hover {
 /* hero section */
 .hero_img {
     right: 0;
-    width: 950px;
+    width:1073px;
     height: 879px;
 }
 
@@ -168,7 +168,7 @@ p {
 }
 
 .orange_circle {
-    right: 2%;
+    right:54px;
     top: 23%;
     border-radius: 100px;
     background: #FF9593;
@@ -279,7 +279,10 @@ p {
     background-image: url("../images/png/hand-mobile.png");
     height: 764px;
 }
-
+.mx_xxl_9{
+    margin-left: 11px !important;
+    margin-right: 11px !important;
+}
 .coffee_cup {
     background-image: url("../images/png/coffee-cup.png");
     height: 764px;
@@ -324,6 +327,10 @@ p {
 @media (max-width:1600px) {
     .yellow_circle {
         display: none !important;
+    }
+    .mx_xxl_9{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
     }
 }
 
