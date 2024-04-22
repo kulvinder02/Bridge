@@ -5,6 +5,7 @@
 }
 
 :root {
+  --font-xsm: 14px !important;
   --font-sm: 16px !important;
   --font-md: 18px !important;
   --font-lg: 20px !important;
@@ -17,14 +18,19 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --color-dark-black:#606060;
+  --color-light-black:#3C3C3C;
   --color-grey: #777777;
   --light-orange: #FF9593;
   --light-green: #30A59D;
+  --light-blue: #4EA8D2;
   --light-white:#CAE5F2;
 
 }
 .fw-semibold{
   font-weight: 600 !important;
+}
+.fw-medium{
+  font-weight: 500 !important;
 }
 .lh_127 {
   line-height: 127%;
@@ -37,6 +43,9 @@
 }
 .color-dark-black {
   color: var(--color-dark-black);
+}
+.color-light-black {
+  color: var(--color-light-black);
 }
 .color-white {
   color: var(--color-white);
@@ -56,7 +65,12 @@
 .light-green {
   color: var(--light-green);
 }
-
+.light-blue {
+  color: var(--light-blue);
+}
+.text-xsm {
+  font-size:  var(--font-xsm);
+}
 .text-sm {
   font-size:  var(--font-sm);
 }
@@ -85,6 +99,24 @@
 .text-6xl {
   font-size: var(--font-6xl);
 }
+@media (max-width:1600px) {
+  :root {
+    --font-3xl: 28px;
+  }
+
+}
+@media (max-width:992px) {
+  :root {
+    --font-3xl: 26px;
+  }
+
+}
+@media (max-width:768px) {
+  :root {
+    --font-3xl: 18px;
+  }
+
+}
 
 @media (max-width:576px) {
   :root {
@@ -93,7 +125,7 @@
     --font-lg: 16px !important;
     --font-xl: 22px;
     --font-2xl: 20px !important;
-    --font-3xl: 26px ;
+    --font-3xl: 16px;
     --font-4xl: 32px !important;
     --font-5xl: 64px;
     --font-6xl: 74px;
