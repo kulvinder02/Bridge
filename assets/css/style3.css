@@ -1,0 +1,122 @@
+.about-bg {
+    min-height: 490px;
+    background-image: url("../images/png/about-hero-bg.png");
+    background-size: 100% 100%;
+}
+
+.lh_157 {
+    line-height: 157% !important;
+}
+
+.max_w_1036 {
+    max-width: 1036px;
+}
+
+.mans_jumping {
+    height: 222px;
+}
+
+.linear_line {
+    max-width: 709px;
+    height: 10px;
+    border-radius: 30px;
+    background-image: linear-gradient(180deg, #41C9C6 0%, #4FA6D3 100%);
+}
+
+.team_pics {
+    width: 317px;
+    height: 317px;
+}
+
+.max_w_1566 {
+    max-width: 1566px;
+}
+
+.bg_light_blue {
+    background-color: #F4FFFF;
+}
+
+.accordion_box {
+    max-width: 1187px;
+    padding: 37px 110px 71px 110px;
+    border-radius: 5px;
+    box-shadow: 18px 10px 34px 0px rgba(5, 5, 5, 0.1);
+}
+
+.max_w_715 {
+    max-width: 715px;
+}
+/* accordian */
+
+.accordion-item {
+    border: none !important;
+}
+.accordion-button:not(.collapsed) {
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 10px !important;
+    box-shadow: none !important;
+}
+.accordion-body {
+    margin-bottom: 26px;
+    border-bottom-left-radius: 16px !important;
+    padding:0px 37px  44px !important;
+    border-bottom-right-radius: 16px !important;
+    background-image: linear-gradient(180deg, #41C9C6 0%, #4FA6D3 100%) !important;
+}
+
+.accordion-button {
+    border: none !important;
+    margin-bottom: 26px;
+    border-radius: 16px !important;
+    padding: 37px 43px !important;
+    background-image: linear-gradient(180deg, #41C9C6 0%, #4FA6D3 100%) !important;
+}
+.accordion-button::after {
+    background-image: url("../images/png/accordian-vector.png") !important;
+}
+
+@media (max-width:992px) {
+    .about-bg {
+        min-height: 340px;
+        background-image: url("../images/png/about-hero-bg.png");
+    }
+    .accordion_box {
+        padding: 35px 50px 21px 50px;
+    }
+    .accordion-body {
+        margin-bottom: 16px !important;
+        padding:0px 17px  24px !important;
+    }
+    
+    .accordion-button {
+        margin-bottom: 16px !important;
+      padding: 22px 20px !important;
+     }
+}
+
+@media (max-width:768px) {
+    .accordion_box {
+        padding: 35px 16px 21px 16px;
+    }
+    .mans_jumping {
+        height: 122px;
+    }
+
+    .about-bg {
+        min-height: 240px;
+        background-image: url("../images/png/about-hero-bg.png");
+    }
+}
+
+@media (max-width:576px) {
+    .about-bg {
+        min-height: 200px;
+        background-image: url("../images/png/about-hero-bg.png");
+    }
+
+    .mans_jumping {
+        height: 102px;
+    }
+}
