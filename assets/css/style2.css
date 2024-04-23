@@ -29,6 +29,47 @@
     left: 0;
     bottom: 0;
 }
+.circle_radius{
+    border-radius: 100px
+}
+.orange_circle_h_w{
+    height: 117px;
+    width: 117px;
+    background: #FF9593;
+}
+.orange_circle3 {
+    right: 108px;
+    top: 3%;
+}
+.yellow_circle3 {
+    left:136px;
+    top: 17.5%;
+    background: #FFDEA6;
+    height: 77px;
+    width: 77px;
+}
+.green_circle{
+    right: 161px;
+    top: 39%;
+    background: #43C2C8 ;
+    height: 77px;
+    width: 77px  
+}
+.orange_circle4 {
+    right: -28px;
+    bottom: 2%;
+}
+.small_Orange {
+    left: 189px;
+    bottom: 37%;
+    background: #FF9593;
+    height: 62px;
+    width: 62px;
+}
+.blog_box:hover .bolg_img{
+  transform: scale(1.02);    
+  transition: all 200ms ease-in-out;
+}
 @media (max-width:1500px) {
     .blog_2{
         display: flex;

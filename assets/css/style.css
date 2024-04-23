@@ -332,6 +332,12 @@ p {
     border:  1px solid black !important;
 }
 @media (max-width:1600px) {
+    .yellow_circle2 {
+        right: -1%;
+    }
+    .orange_circle2 {
+        left: -3%;
+    }
     .blog_logo{
         margin-left: 0px  !important;
     }
