@@ -5,6 +5,10 @@
     max-width: 619px;
     height: 405px;
 }
+.bolg_img_box{
+    max-width: 619px;
+    max-height: 405px;
+}
 .blog_logo{
     margin-left: -100px;
 }

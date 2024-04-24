@@ -1,5 +1,5 @@
-.about-bg {
-    min-height: 490px;
+.about_bg {
+    height: 490px;
     background-image: url("../images/png/about-hero-bg.png");
     background-size: 100% 100%;
 }
@@ -95,15 +95,15 @@
     border-radius: 100px;
 }
 .yellow_circle_3{
-    bottom: 114px;
-    right: 171px;
+    bottom:90px;
+    right: 110px;
 }
 .yellow_circle_4{
     left: 64px;
-    top: 20%;
+    top: 24%;
 }
 .green_circle_4{
-    bottom: 269px;
+    bottom: 210px;
     right: 69px;
 }
 .orange_circle_4{
@@ -118,16 +118,28 @@
     bottom: 269px;
     left: 85px;
 }
+.pt_35{
+    padding-top: 33px;
+}
+@media (max-width:1600px) {
+    .green_circle_5{
+        display: none;
+    }
+}
 @media (max-width:1400px) {
+    .pt_35{
+        padding-top: 0px;
+    }
     .team_pics {
         width: 210px !important;
         height: 230px !important;
     }
+
 }
 
 @media (max-width:992px) {
-    .about-bg {
-        min-height: 340px;
+    .about_bg {
+        height: 340px;
         background-image: url("../images/png/about-hero-bg.png");
     }
     .accordion_box {
@@ -156,9 +168,8 @@
         height: 122px;
     }
 
-    .about-bg {
-        min-height: 240px;
-        background-image: url("../images/png/about-hero-bg.png");
+    .about_bg{
+       height: 240px;
     }
 }
 
@@ -167,10 +178,9 @@
         width: 210px !important;
         height: 210px;
     }
-    .about-bg {
-        min-height: 200px;
-        background-image: url("../images/png/about-hero-bg.png");
-    }
+    .about_bg {
+        height: 200px;
+        }
 
     .mans_jumping {
         height: 102px;
