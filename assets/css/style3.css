@@ -140,7 +140,6 @@
 @media (max-width:992px) {
     .about_bg {
         height: 340px;
-        background-image: url("../images/png/about-hero-bg.png");
     }
     .accordion_box {
         padding: 35px 50px 21px 50px;
