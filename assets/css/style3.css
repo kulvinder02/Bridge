@@ -74,7 +74,7 @@
     background:  linear-gradient(180deg, #43C5C8 0%, #4FA6D3 100%) !important;
 }
 .accordion-button::after {
-    background-image: url("../images/png/accordian-vector.png") !important;
+    background-image: url("../images/webp/accordian-vector.webp") !important;
 }
 .yellow_circle_bg{
     background-color: #FFDEA6;
