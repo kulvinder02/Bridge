@@ -189,7 +189,7 @@ p {
 /* ------------------  Features  ------------------------ */
 .features_bg {
     background-attachment: fixed;
-    background-image: url("../images/png/featurs-bg.png");
+    background-image: url("../images/webp/featurs-bg.webp");
 }
 
 .fetures_card {
@@ -205,7 +205,7 @@ p {
 }
 .orange_circle2 {
     left: 3%;
-    top: -33%;
+    bottom: 0%;
     border-radius: 100px;
     background: #FF9593;
     height: 117px;
@@ -213,7 +213,7 @@ p {
 }
 .yellow_circle2 {
     right: 5%;
-    top: -111%;
+    top: 41%;
     border-radius: 100px;
     background: #FFDEA6;
     height: 77px;
@@ -268,7 +268,7 @@ p {
     bottom: 40px !important;
 }
 .though_bg {
-    background-image: url("../images/png/thought-bg.png");
+    background-image: url("../images/webp/thought-bg.webp");
     width: 968px;
     height: 139px;
     max-width: 100% !important;
@@ -283,7 +283,7 @@ p {
 }
 /* --------------bridge work------------- */
 .hand_mobile {
-    background-image: url("../images/png/hand-mobile.png");
+    background-image: url("../images/webp/hand-mobile.webp");
     height: 764px;
 }
 .mx_xxl_9{
@@ -291,13 +291,13 @@ p {
     margin-right: 11px !important;
 }
 .coffee_cup {
-    background-image: url("../images/png/coffee-cup.png");
+    background-image: url("../images/webp/coffee-cup.webp");
     height: 764px;
     background-position: center;
 }
 
 .enjoy_selfie {
-    background-image: url("../images/png/enjoy-selfie.png");
+    background-image: url("../images/webp/enjoy-selfie.webp");
     height: 764px;
     background-position: center;
 }
@@ -308,7 +308,7 @@ p {
 
 .footer_bg {
     height: 400px;
-    background-image: url("/assets/images/png/footer-bg.png");
+    background-image: url("/assets/images/webp/footer-bg.webp");
 }
 .slick-dots li.slick-active button:before {
     margin-top: 1px !important;
@@ -395,7 +395,7 @@ p {
     }
 
     .hero_bg {
-        background-image: url("../images/png/hero-md-bg.png");
+        background-image: url("../images/webp/hero-md-bg.webp");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -494,7 +494,7 @@ p {
      .though_bg {
         border-radius: 20px !important;
         width: 100%;
-        background-size: 100% 88%;
+        background-size: 100% 100%;
     }
     .sam_img{
         margin-left: 30px;
@@ -511,7 +511,7 @@ p {
     }
 
     .hero_bg {
-        background-image: url("../images/png/hero-sm-bg.png");
+        background-image: url("../images/webp/hero-sm-bg.webp");
 
     }
 
