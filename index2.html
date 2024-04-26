@@ -31,13 +31,13 @@
          <li class="nav_links position-relative"><a href="" class="text_lg_sm fw-normal active">Blog</a></li>
        </ul>
        <div class="d-flex align-items-center small_screen_links d-lg-none position-relative z-1 gap-3">
-         <a href="" class="icon_hover"><img src="./assets/images/svg/black-chain-icon.svg" alt="chain"></a>
-         <a href="" class="icon_hover"><img src="./assets/images/svg/black-instagram-icon.svg" alt="instgram"></a>
-         <a href="" class="icon_hover"><img src="./assets/images/svg/black-twiter-icon.svg" alt="twiter"></a>
-         <a href="" class="icon_hover"><img src="./assets/images/svg/black-jusice-glass-icon.svg" alt="glass"></a>
-         <a href="" class="icon_hover"><img src="./assets/images/svg/black-facebook-icon.svg" alt="facbook"></a>
-         <a href="" class="icon_hover"><img src="./assets/images/svg/black-linkdin-icon.svg" alt="linkdin"></a>
-         <a href="" class="icon_hover"><img src="./assets/images/svg/black-email-icon.svg" alt="email"></a>
+         <a target="_blank" href="" class="icon_hover"><img src="./assets/images/svg/black-chain-icon.svg" alt="chain"></a>
+         <a target="_blank"  href="https://www.instagram.com/stories/highlights/17859310559785705/" class="icon_hover"><img src="./assets/images/svg/black-instagram-icon.svg" alt="instgram"></a>
+         <a target="_blank"  href="https://twitter.com/account/access" class="icon_hover"><img src="./assets/images/svg/black-twiter-icon.svg" alt="twiter"></a>
+         <a target="_blank" href="https://www.mcdonalds.com/us/en-us.html" class="icon_hover"><img src="./assets/images/svg/black-jusice-glass-icon.svg" alt="glass"></a>
+         <a target="_blank" href="https://www.facebook.com/" class="icon_hover"><img src="./assets/images/svg/black-facebook-icon.svg" alt="facbook"></a>
+         <a target="_blank" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F" class="icon_hover"><img src="./assets/images/svg/black-linkdin-icon.svg" alt="linkdin"></a>
+         <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl"  class="icon_hover"><img src="./assets/images/svg/black-email-icon.svg" alt="email"></a>
       
          </div>
        </div>
@@ -207,15 +207,15 @@
     <div class="mt-md-5 mb-3 py-5 d-flex justify-content-center flex-column align-items-center">
                <p class="text-center color-black fw-normal text-md mb-4 pb-2">Follow our socials:</p>
                <div class="gap-3 d-flex align-items-center  ">
-                <a href="" class="icon_hover"><img src="./assets/images/svg/black-chain-icon.svg" alt="chain"></a>
-                <a href="https://www.instagram.com/stories/highlights/17859310559785705/" class="icon_hover"><img src="./assets/images/svg/black-instagram-icon.svg" alt="instgram"></a>
-                <a href="https://twitter.com/account/access" class="icon_hover"><img src="./assets/images/svg/black-twiter-icon.svg" alt="twiter"></a>
-                <a href="https://www.mcdonalds.com/us/en-us.html" class="icon_hover"><img src="./assets/images/svg/black-jusice-glass-icon.svg" alt="glass"></a>
-                <a href="https://www.facebook.com/" class="icon_hover"><img src="./assets/images/svg/black-facebook-icon.svg" alt="facebook"></a>
-                <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F" class="icon_hover"><img src="./assets/images/svg/black-linkdin-icon.svg" alt="linkdin"></a>
-                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl" class="icon_hover"><img src="./assets/images/svg/black-email-icon.svg" alt="email"></a>
+                <a target="_blank" href="" class="icon_hover"><img src="./assets/images/svg/black-chain-icon.svg" alt="chain"></a>
+                <a target="_blank" href="https://www.instagram.com/stories/highlights/17859310559785705/" class="icon_hover"><img src="./assets/images/svg/black-instagram-icon.svg" alt="instgram"></a>
+                <a target="_blank" href="https://twitter.com/account/access" class="icon_hover"><img src="./assets/images/svg/black-twiter-icon.svg" alt="twiter"></a>
+                <a target="_blank" href="https://www.mcdonalds.com/us/en-us.html" class="icon_hover"><img src="./assets/images/svg/black-jusice-glass-icon.svg" alt="glass"></a>
+                <a target="_blank" href="https://www.facebook.com/" class="icon_hover"><img src="./assets/images/svg/black-facebook-icon.svg" alt="facebook"></a>
+                <a target="_blank" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F" class="icon_hover"><img src="./assets/images/svg/black-linkdin-icon.svg" alt="linkdin"></a>
+                <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl" class="icon_hover"><img src="./assets/images/svg/black-email-icon.svg" alt="email"></a>
                </div>
-               <p class="text-xsm fw-light color-black text-center mt-5 pt-sm-4">© 2021 BridgeMe Innovations, Inc.  <a href="" class="text-decoration-underline mx-3 light-blue fw-medium">Privacy Policy</a>  <a href="" class="text-decoration-underline mx-1 light-blue fw-medium">Terms of Use</a> </p>
+               <p class="text-xsm fw-light color-black text-center mt-5 pt-sm-4">© 2021 BridgeMe Innovations, Inc.<span id="currentYear"></span>  <a href="" class="text-decoration-underline mx-3 light-blue fw-medium">Privacy Policy</a>  <a href="" class="text-decoration-underline mx-1 light-blue fw-medium">Terms of Use</a> </p>
     </div>
     </div>
    <!-- nav bar function -->
@@ -228,5 +228,11 @@
       document.body.classList.toggle("overflow_hidden");
     }
   </script>
+   <!-- year function -->
+   <script>
+    document.getElementById("currentYear").innerText =
+      new Date().getFullYear();
+  </script>
+
 </body>
 </html>

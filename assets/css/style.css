@@ -90,6 +90,7 @@ a:hover {
 
 /* hero section */
 .hero_img {
+    padding-bottom: 96px;
     right: -3%;
     width:1041px;
     height: 879px;
@@ -165,7 +166,7 @@ p {
 }
 
 .max_w_811 {
-    max-width: 711px;
+    max-width: 641px;
 }
 
 .orange_circle {
@@ -357,8 +358,9 @@ p {
         height: 350.82px;
     }
     .hero_img {
-        width: 959px;
-        height: 796px;
+        padding-bottom: 0px;
+        width: 828px;
+        height: 740px;
     }
     .yellow_circle {
         display: none !important;
