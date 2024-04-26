@@ -126,6 +126,10 @@
   .green_circle_5 {
     display: none;
   }
+  .orange_circle_5 {
+    top: 33%;
+    left: 5px;
+}
 }
 @media (max-width: 1400px) {
   .pt_35 {
