@@ -335,6 +335,18 @@ p {
 .gap_30{
     gap: 30px;
 }
+.logo{
+    width: 83px;
+    height: 71px;
+}
+.authentic_svg{
+    width: 158px;
+    height: 154px;
+}
+.logo2{
+    width: 107px;
+    height: 61px;
+}
 @media (max-width:1600px) {
     .yellow_circle2 {
         right: -1%;
